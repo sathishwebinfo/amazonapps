@@ -27,7 +27,10 @@
   /**
    * Render the `main` element consistently in IE.
    */
-  
+  *{
+    box-sizing: border-box;
+  }
+
   main {
     display: block;
   }

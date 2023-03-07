@@ -21,11 +21,23 @@
     <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
+    <button mat-icon-button class="icon-button-sm" aria-label="Example icon-button with share icon">
+      <mat-icon>shopping_cart</mat-icon>
+      <span class="shopping-count">1</span>
     </button>
   </mat-toolbar>
   <div class="main-content">
-   
+    <div class="banner-bg">
+      <img src={{bannerimg}} alt="">
+    </div>
+    <div class="products-list">
+      <ng-container *ngFor="let product of objArray; let i = index">
+        <div class="products-items" >
+          <h3>{{product.proName}}</h3>
+          <img src="{{product.imgUrl}}" alt="">
+          <button mat-raised-button color="primary">Add to Cart</button>
+        </div>
+      </ng-container>
+    </div>
   </div>
 </mat-drawer-container>

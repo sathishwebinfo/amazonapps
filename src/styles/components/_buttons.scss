@@ -1,0 +1,18 @@
+.icon-button-sm {
+    &.mat-mdc-icon-button {
+        .shopping-count {
+            position: absolute;
+            top: 0;
+            font-size: 12px;
+            background: #fff;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            right: 3px;
+        }
+    }
+}
