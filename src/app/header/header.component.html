@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" *ngIf="isMenuRequired">
+    <span routerLink="" class="company-logo">Amazon App</span>
+    <button mat-button routerLink="" class="left-padding">Home</button>
+    <button mat-button routerLink="/user" *ngIf="isAdminUser">User</button>
+
+    <mat-form-field appearance="fill" class="global-search">
+        <input type="text" matInput placeholder="Search Products" [(ngModel)]="searchTerm" (keyup)="search($event)">
+        <span matSuffix class="fas fa-search"></span>
+    </mat-form-field>
+    <span class="between-spacer"></span>
+    <button mat-icon-button class="icon-button-sm" routerLink="cart">
+        <mat-icon>shopping_cart</mat-icon>
+        <span class="shopping-count">{{totalItem}}</span>
+    </button>
+    <button mat-button routerLink="/login">
+        Logout
+    </button>
+</mat-toolbar>
