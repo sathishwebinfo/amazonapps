@@ -1,0 +1,86 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "test1",
+      "name": "test1 User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "retailer",
+      "isActive": true
+    },
+    {
+      "id": "test2",
+      "name": "test2 User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "customer",
+      "isActive": true
+    },
+    {
+      "id": "test3",
+      "name": "test3 User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "retailer",
+      "isActive": true
+    },
+    {
+      "id": "test4",
+      "name": "test4 User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "retailer",
+      "isActive": true
+    },
+    {
+      "id": "test5",
+      "name": "test5 User",
+      "password": "Admin@123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "rudhran",
+      "name": "Rudhrapranav S",
+      "password": "Asdf@123",
+      "email": "rudhra.pranav@gmail.com",
+      "gender": "male",
+      "role": "quality",
+      "isActive": true
+    },
+    {
+      "id": "sangeetha",
+      "name": "Sangeethapriya Sathishkumar",
+      "password": "Qwer@123",
+      "email": "priya@gmail.com",
+      "gender": "female",
+      "role": "retailer",
+      "isActive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "retailer",
+      "name": "Retailer"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ]
+}

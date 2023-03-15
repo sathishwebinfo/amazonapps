@@ -1,0 +1,15 @@
+<div class="banner-bg">
+    <img src={{bannerimg}} alt="">
+  </div>
+  <div class="row product-list">
+    <ng-container *ngFor="let product of objArray; let i = index">
+      <div class="col-sm-3">
+        <div class="products-items">
+          <h3>{{product.proName}}</h3>
+          <img src="{{product.imgUrl}}" alt="">
+          <button mat-raised-button color="primary">Add to Cart</button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  
