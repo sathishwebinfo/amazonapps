@@ -1,19 +1,23 @@
-.company-logo{
+.company-logo {
     cursor: pointer;
+    i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
 }
 .global-search {
     border-radius: 0;
     padding: 0 150px;
     margin-top: 20px;
-    .fa-search{
-        color:#3f51b5;
+    .fa-search {
+        color: #3f51b5;
     }
-    &.mat-focused{
-        .mdc-text-field--filled{
+    &.mat-focused {
+        .mdc-text-field--filled {
             background: #fff !important;
         }
     }
-    
+
     .mat-mdc-text-field-wrapper {
         border-radius: 0;
         .mat-mdc-form-field-flex {
@@ -25,11 +29,11 @@
                 align-items: center;
             }
         }
-        .mdc-line-ripple{
+        .mdc-line-ripple {
             display: none;
         }
     }
 }
-.left-padding{
+.left-padding {
     margin-left: 30px;
 }
